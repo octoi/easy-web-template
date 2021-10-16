@@ -1,8 +1,8 @@
 {
   "name": "Rick Astley",
   "description": "Singer, Song writer, nerd",
-  "image": "https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/Rick%2BAstley/Rick%2520Astley_16_9_1594669670.jpg?itok=loetvX2I",
-  "isAssetImage": false,
+  "image": "rick.png",
+  "isAssetImage": true,
   "social": {
     "twitter": "rickastley",
     "instagram": "officialrickastley",
