@@ -37,21 +37,21 @@ article img {
   border-radius: 5px;
 }
 
-article div {
+article .content-wrapper {
   margin-left: 100px;
 }
 
-article div > h1 {
+article .content-wrapper > h1 {
   font-size: 60px;
 }
 
-article div > h2 {
+article .content-wrapper > h2 {
   margin-top: 10px;
   font-size: 40px;
   opacity: 0.6;
 }
 
-article div > button {
+article .btns > button {
   margin-top: 30px;
   width: 60px;
   height: 60px;
@@ -70,4 +70,38 @@ footer {
   display: flex;
   justify-content: center;
   opacity: 0.5;
+}
+
+@media (max-width: 1090px) {
+  article {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  article .content-wrapper {
+    margin-left: 0px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 30px 10px;
+  }
+
+  article img {
+    width: 100%;
+  }
+
+  article .content-wrapper > h1 {
+    font-size: 40px;
+  }
+
+  article .content-wrapper > h2 {
+    font-size: 20px;
+  }
 }
