@@ -11,3 +11,63 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: 'Nunito', sans-serif;
+  padding: 30px;
+}
+
+header {
+  opacity: 0.5;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+article img {
+  width: 500px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+article div {
+  margin-left: 100px;
+}
+
+article div > h1 {
+  font-size: 60px;
+}
+
+article div > h2 {
+  margin-top: 10px;
+  font-size: 40px;
+  opacity: 0.6;
+}
+
+article div > button {
+  margin-top: 30px;
+  width: 60px;
+  height: 60px;
+  font-size: 28px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background: var(--accent);
+  color: var(--text);
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  opacity: 0.5;
+}
