@@ -24,7 +24,6 @@ body {
   width: 16px;
 }
 
-/* background of the scrollbar except button or resizer */
 ::-webkit-scrollbar-track {
   background-color: #fff;
 }
@@ -55,6 +54,11 @@ article {
   justify-content: center;
   align-items: center;
   margin-top: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
 }
 
 article img {
@@ -89,6 +93,11 @@ article .btns > button {
   background: var(--accent);
   color: var(--text);
   cursor: pointer;
+  transition: 0.3s;
+}
+
+article .btns > button:hover {
+  opacity: 0.8;
 }
 
 footer {
