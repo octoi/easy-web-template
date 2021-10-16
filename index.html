@@ -5,40 +5,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website</title>
+  <title class="name">Website</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./assets/main.css">
 </head>
 
 <body>
   <header>
-    <h3>John Doe</h3>
+    <h3 class="name"></h3>
   </header>
   <article>
-    <img
-      src="https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/Rick%2BAstley/Rick%2520Astley_16_9_1594669670.jpg?itok=loetvX2I"
-      alt="Rick Astley" />
+    <img id="image" />
     <div class="content-wrapper">
-      <h1>Rick Astley</h1>
-      <h2>Singer, Song writer, nerd</h2>
+      <h1 class="name"></h1>
+      <h2 id="description"></h2>
 
       <div class="btns">
-        <button>
-          <i class="far fa-envelope"></i>
-        </button>
-        <button>
-          <i class="fab fa-instagram"></i>
-        </button>
-        <button>
-          <i class="fab fa-twitter"></i>
-        </button>
       </div>
     </div>
   </article>
 
   <footer>
-    <p>John Doe &copy; all right reserved</p>
+    <p><span class="name"></span> &copy; all right reserved</p>
   </footer>
+
+  <script src="./assets/app.js"></script>
 </body>
 
 </html>
