@@ -32,7 +32,7 @@ function bindValueToClass(documentClass, value) {
 
 function renderImage(image, isAssetImage) {
   document.getElementById('image').src = isAssetImage
-    ? `../images/${image}` // adding image path if its from asset
+    ? `./images/${image}` // adding image path if its from asset
     : image;
   document.getElementById('image').alt = name;
 }
