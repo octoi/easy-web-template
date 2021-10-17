@@ -1,8 +1,11 @@
 // ! Do not try to edit this $hit 💩
 
-fetch('../data.json')
-  .then((result) => result.json())
-  .then(renderData);
+// fetch('../data.json')
+//   .then((result) => result.json())
+//   .then(renderData);
+
+const websiteData = webData;
+renderData(websiteData)
 
 function renderData(data) {
   const name = data.name;
